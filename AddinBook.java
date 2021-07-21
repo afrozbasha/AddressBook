@@ -53,6 +53,10 @@ public class AddinBook {
     public String getEmail() {
         return email;
     }
+
+    public String printString(){
+        return (" First Name: " + getFirstName() + "\n Last Name: " + getLastName() + "\n Cell Num: " + getCellNum() + "\n Email-id: " + getEmail() + "\n City: " + getCity() + " \n Pin: " + getZip() + "\n State: " + getState());
+    }
 }
 
 
