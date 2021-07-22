@@ -5,6 +5,20 @@ public class AddinBook {
     Scanner sc = new Scanner(System.in);
     private String firstName, lastName, city, state, zip, cellNum, email;
 
+    public AddinBook(){
+    }
+
+
+    public AddinBook(String fN, String lN, String eId, String cell, String city, String zIp, String state) {
+        this.firstName = fN;
+        this.lastName = lN;
+        this.city = city;
+        this.state = state;
+        this.zip = zIp;
+        this.cellNum = cell;
+        this.email = eId;
+    }
+
     public void setFirstName(String fname) {
         this.firstName = fname;
     }
