@@ -2,7 +2,7 @@ package com.AddressBook;
 import java.util.*;
 
 
-public class AddressBookUC2 {
+public class AddressBook {
 
 
     public static void main(String[] args) {
